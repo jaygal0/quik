@@ -1,5 +1,17 @@
+:root {
+  --yellow: #f7c748;
+  --turquoise: #6ad5d4;
+  --purple: #6779d6;
+  --pink: #f197e0;
+  --orange: #d78060;
+  --black: #452206;
+  --grey: #bebebe;
+  --box: 6px 6px 0px 0px var(--black);
+}
+
 html,
 body {
+  font-size: 62.5%;
   padding: 0;
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
@@ -13,4 +25,9 @@ a {
 
 * {
   box-sizing: border-box;
+}
+
+h1 {
+  font-size: 4rem;
+  line-height: 5.6rem;
 }
