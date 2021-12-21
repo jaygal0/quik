@@ -9,9 +9,9 @@ const ImgTextBtn = ({ heading, text, button, buttonAlt }) => {
         <h2>{heading}</h2>
         <p>{text}</p>
         {button ? (
-          <button className="button-primary">{button}</button>
+          <button className="primary">{button}</button>
         ) : (
-          <button className="button-secondary">{buttonAlt}</button>
+          <button className="secondary">{buttonAlt}</button>
         )}
       </div>
     </div>

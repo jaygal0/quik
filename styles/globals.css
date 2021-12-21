@@ -1,12 +1,19 @@
 :root {
-  --yellow: #f7c748;
-  --turquoise: #6ad5d4;
-  --purple: #6779d6;
-  --pink: #f197e0;
-  --orange: #d78060;
-  --black: #452206;
-  --grey: #bebebe;
-  --box: 6px 6px 0px 0px var(--black);
+  --primary: #e85a34;
+  --secondary: #ed804d;
+  --accent: #fff9b6;
+  --darkBlue: #87b7e4;
+  --lightBlue: #d7e8f0;
+  --accentBlue: #ccdde2;
+  --background: #edf4ff;
+  --black: #202020;
+}
+
+@font-face {
+  font-family: 'Hoefler-Text';
+  src: url('/fonts/Lazer84.ttf');
+  font-style: normal;
+  font-weight: 400;
 }
 
 html,
@@ -14,8 +21,9 @@ body {
   font-size: 62.5%;
   padding: 0;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  font-family: 'Hoefler Text', Utopia, 'Liberation Serif',
+    'Nimbus Roman No9 L Regular', Times, 'Times New Roman', serif;
+  background-color: var(--background);
 }
 
 a {
@@ -31,14 +39,46 @@ a {
 h1 {
   font-size: 4rem;
   line-height: 5.6rem;
+  font-weight: normal;
+  font-style: normal;
+  letter-spacing: 0.02em;
+  color: var(--black);
+  padding: 1.6rem;
+}
+
+.focus {
+  font-size: 4rem;
+  line-height: 5.6rem;
+  font-style: normal;
+  font-weight: bold;
+  letter-spacing: 0.02em;
+  color: var(--darkBlue);
+}
+
+.italic {
+  font-style: italic;
+  font-weight: normal;
+  font-size: 4rem;
+  line-height: 5.6rem;
+  letter-spacing: 0.02em;
+  color: var(--secondary);
 }
 
 h2 {
   font-size: 3.2rem;
   line-height: 4.8rem;
+  font-weight: normal;
 }
 
 h3 {
   font-size: 2.4rem;
   line-height: 3.2rem;
+}
+
+button.primary {
+  background: var(--secondary);
+  border: 1px var(--black) solid;
+  border-radius: 4px;
+  padding: 0.8rem 1.6rem;
+  color: white;
 }

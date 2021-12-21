@@ -6,7 +6,7 @@ const Navbar = () => {
     <header>
       <nav className={styles.nav}>
         <div>quik</div>
-        <button>let's work together</button>
+        <button className="primary">let's work together</button>
       </nav>
     </header>
   )
