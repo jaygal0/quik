@@ -1,0 +1,22 @@
+.container {
+  margin: 9.6rem auto;
+  padding: 1.6rem;
+  background: var(--secondary);
+}
+
+.heading {
+  color: white;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 2.4rem;
+  line-height: 3.2rem;
+}
+
+.list {
+  font-weight: normal;
+  font-size: 7.2rem;
+  line-height: 8.8rem;
+  text-transform: lowercase;
+  margin-left: 2.4rem;
+  color: var(--accent);
+}

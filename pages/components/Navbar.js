@@ -1,11 +1,12 @@
 import React from 'react'
+import Image from 'next/image'
 import styles from './Navbar.module.css'
 
 const Navbar = () => {
   return (
     <header>
       <nav className={styles.nav}>
-        <div>quik</div>
+        <Image src="/logo.svg" width={75} height={40} alt="quik logo" />
         <button className="primary">let's work together</button>
       </nav>
     </header>

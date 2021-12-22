@@ -1,18 +1,23 @@
 import React from 'react'
+import styles from './Package.module.css'
 
-const Package = ({ heading, price, b1, b2, b3, b4, popular }) => {
+const Package = ({ heading, text, price, b1, b2, b3, b4, popular }) => {
   return (
-    <div>
-      <div>{heading}</div>
-      <div>€{price}</div>
-      <button>select package</button>
-      <ul>
-        {b1 && <li>{b1}</li>}
-        {b2 && <li>{b2}</li>}
-        {b3 && <li>{b3}</li>}
-        {b4 && <li>{b4}</li>}
-        {popular && <div>most popular</div>}
+    <div className={styles.container}>
+      <div className={styles.heading}>{heading}</div>
+      <div className={styles.text}>{text}</div>
+      <div className={styles.price}>
+        <span className={styles.currency}>€</span>
+        {price}
+      </div>
+      <button className={styles.button}>select package</button>
+      <ul className={styles.listWrapper}>
+        {b1 && <li className={styles.list}>{b1}</li>}
+        {b2 && <li className={styles.list}>{b2}</li>}
+        {b3 && <li className={styles.list}>{b3}</li>}
+        {b4 && <li className={styles.list}>{b4}</li>}
       </ul>
+      {popular && <div className={styles.popular}>most popular</div>}
     </div>
   )
 }

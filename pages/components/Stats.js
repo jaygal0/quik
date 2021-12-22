@@ -3,7 +3,7 @@ import styles from './Stats.module.css'
 
 const Stats = () => {
   return (
-    <div>
+    <div className={styles.container}>
       <div className={styles.image}></div>
       <div className={styles.textWrapper}>
         <div className={styles.statsWrapper}>

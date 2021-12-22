@@ -1,5 +1,13 @@
+.container {
+  margin: 4.8rem auto;
+}
 .image {
   height: 343px;
   width: 343px;
   background: grey;
+  margin: 0 auto;
+}
+
+.text {
+  padding: 0 1.6rem;
 }

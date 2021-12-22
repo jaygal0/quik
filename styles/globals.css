@@ -9,13 +9,6 @@
   --black: #202020;
 }
 
-@font-face {
-  font-family: 'Hoefler-Text';
-  src: url('/fonts/Lazer84.ttf');
-  font-style: normal;
-  font-weight: 400;
-}
-
 html,
 body {
   font-size: 62.5%;
@@ -75,10 +68,24 @@ h3 {
   line-height: 3.2rem;
 }
 
+p {
+  line-height: 2.4rem;
+}
+
 button.primary {
   background: var(--secondary);
   border: 1px var(--black) solid;
   border-radius: 4px;
   padding: 0.8rem 1.6rem;
   color: white;
+  font-weight: bold;
+}
+
+button.secondary {
+  background: none;
+  border: 1px var(--secondary) solid;
+  border-radius: 4px;
+  padding: 0.8rem 1.6rem;
+  color: var(--secondary);
+  font-weight: bold;
 }

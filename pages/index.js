@@ -1,5 +1,6 @@
 import Head from 'next/head'
 import Clients from './components/Clients'
+import Footer from './components/Footer'
 import Hero from './components/Hero'
 import ImgTextBtn from './components/ImgTextBtn'
 import Navbar from './components/Navbar'
@@ -26,6 +27,7 @@ export default function Home() {
         />
         <Packages />
       </main>
+      <Footer />
     </>
   )
 }
