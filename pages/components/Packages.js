@@ -13,6 +13,7 @@ const Packages = () => {
           objectFit="cover"
           placeholder="empty"
           sizes="100vw"
+          alt="illustration"
         />
       </div>
       <div className={styles.wrapper}></div>

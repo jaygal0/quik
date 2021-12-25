@@ -6,8 +6,8 @@ const Navbar = () => {
   return (
     <header>
       <nav className={styles.nav}>
-        <Image src="/logo.svg" width={75} height={40} alt="quik logo" />
-        <button className="primary">let's work together</button>
+        <Image src="/logo.svg" width={75} height={40} alt="logo" />
+        <button className="primary">let&apos;s work together</button>
       </nav>
     </header>
   )
