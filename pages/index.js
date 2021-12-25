@@ -22,7 +22,7 @@ export default function Home() {
         <Clients />
         <Stats />
         <ImgTextBtn
-          heading="looking for some free advice?"
+          heading="want free advice?"
           text="Share your issues with your website and we&#39;ll see if we can help."
           buttonAlt="book now"
           src="consult.svg"

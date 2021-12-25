@@ -4,7 +4,7 @@ import styles from './Stats.module.css'
 
 const Stats = () => {
   return (
-    <div className={styles.container}>
+    <section className={styles.container}>
       <div className={styles.imageWrapper}>
         <Image
           src="/sleeping.svg"
@@ -36,7 +36,7 @@ const Stats = () => {
           </div>
         </div>
       </div>
-    </div>
+    </section>
   )
 }
 

@@ -5,7 +5,7 @@ import styles from './Packages.module.css'
 
 const Packages = () => {
   return (
-    <div className={styles.container}>
+    <section className={styles.container}>
       <div className={styles.imageWrapper}>
         <Image
           src="/website.svg"
@@ -45,7 +45,7 @@ const Packages = () => {
           b3="Fully functional CMS"
         />
       </div>
-    </div>
+    </section>
   )
 }
 

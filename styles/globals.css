@@ -39,13 +39,22 @@ h1 {
   padding: 1.6rem;
 }
 
-.focus {
-  font-size: 4rem;
-  line-height: 5.6rem;
+.Typewriter__wrapper {
+  font-size: 3.2rem;
+  line-height: 0.4rem;
   font-style: normal;
   font-weight: bold;
   letter-spacing: 0.02em;
   color: var(--darkBlue);
+}
+
+.Typewriter__cursor {
+  font-size: 3.2rem;
+  line-height: 4rem;
+  font-style: normal;
+  font-weight: normal;
+  letter-spacing: 0.02em;
+  color: var(--black);
 }
 
 .italic {

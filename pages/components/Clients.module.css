@@ -1,7 +1,15 @@
 .container {
-  margin: 9.6rem auto;
-  padding: 4.8rem 1.6rem;
   background: var(--secondary);
+  padding: 20% 0; /* The padding is the area for the shapes, adjust it based on the ratio of the shape*/
+  background: url('/wave-top.svg') top / 105% auto,
+    url('/wave-under.svg') bottom/105% auto,
+    linear-gradient(var(--secondary), var(--secondary)) content-box; /* Color between the shapes only on the content and not the padding*/
+  background-repeat: no-repeat;
+}
+
+.wrapper {
+  margin: 0 auto;
+  padding: 1.6rem;
 }
 
 .heading {
@@ -13,6 +21,9 @@
   text-transform: capitalize;
 }
 
+.orderList {
+  padding-bottom: 5.6rem;
+}
 .list {
   font-weight: normal;
   font-size: 7.2rem;

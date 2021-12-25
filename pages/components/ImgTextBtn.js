@@ -4,7 +4,7 @@ import styles from './ImgTextBtn.module.css'
 
 const ImgTextBtn = ({ src, heading, text, button, buttonAlt }) => {
   return (
-    <div className={styles.container}>
+    <section className={styles.container}>
       <div className={styles.imageWrapper}>
         <Image
           src={`/${src}`}
@@ -23,7 +23,7 @@ const ImgTextBtn = ({ src, heading, text, button, buttonAlt }) => {
           <button className="secondary">{buttonAlt}</button>
         )}
       </div>
-    </div>
+    </section>
   )
 }
 
