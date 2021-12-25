@@ -1,10 +1,19 @@
 import React from 'react'
+import Image from 'next/image'
 import styles from './ImgTextBtn.module.css'
 
-const ImgTextBtn = ({ heading, text, button, buttonAlt }) => {
+const ImgTextBtn = ({ src, heading, text, button, buttonAlt }) => {
   return (
     <div className={styles.container}>
-      <div className={styles.image}></div>
+      <div className={styles.imageWrapper}>
+        <Image
+          src={`/${src}`}
+          layout="fill"
+          objectFit="cover"
+          placeholder="empty"
+          sizes="100vw"
+        />
+      </div>
       <div className={styles.text}>
         <h2>{heading}</h2>
         <p>{text}</p>

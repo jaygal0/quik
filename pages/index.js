@@ -15,15 +15,17 @@ export default function Home() {
         <Hero />
         <ImgTextBtn
           heading="feeling overwhelmed?"
-          text="Got a poorly designed website, that’s too slow and doesn’t convert customers?"
+          text="Got a poorly designed website, that&#39;s too slow and doesn&#39;t convert customers?"
           button="let&#39;s work together"
+          src="confused-mobile.svg"
         />
         <Clients />
         <Stats />
         <ImgTextBtn
           heading="looking for some free advice?"
-          text="Share your issues with your website and we’ll see if we can help."
+          text="Share your issues with your website and we&#39;ll see if we can help."
           buttonAlt="book now"
+          src="consult.svg"
         />
         <Packages />
       </main>

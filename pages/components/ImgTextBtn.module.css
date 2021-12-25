@@ -1,10 +1,10 @@
 .container {
   margin: 4.8rem auto;
 }
-.image {
+.imageWrapper {
+  position: relative;
   height: 343px;
   width: 343px;
-  background: grey;
   margin: 0 auto;
 }
 
