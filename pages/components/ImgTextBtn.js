@@ -12,6 +12,7 @@ const ImgTextBtn = ({ src, heading, text, button, buttonAlt }) => {
           objectFit="cover"
           placeholder="empty"
           sizes="100vw"
+          alt="illustration"
         />
       </div>
       <div className={styles.text}>
