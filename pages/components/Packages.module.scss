@@ -1,3 +1,5 @@
+@import '../../styles/mixins';
+
 .container {
   margin: 4.8rem auto;
   padding: 1.6rem;
@@ -23,4 +25,13 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+
+  @include tabletLarge() {
+    margin-top: 3.2rem;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 0 5.6rem;
+    gap: 1.6rem;
+  }
 }

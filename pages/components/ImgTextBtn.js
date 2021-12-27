@@ -1,6 +1,6 @@
 import React from 'react'
 import Image from 'next/image'
-import styles from './ImgTextBtn.module.css'
+import styles from './ImgTextBtn.module.scss'
 
 const ImgTextBtn = ({ src, heading, text, button, buttonAlt }) => {
   return (

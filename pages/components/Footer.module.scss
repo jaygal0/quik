@@ -1,6 +1,12 @@
+@import '../../styles/mixins';
+
 .container {
   padding: 2.4rem 1.6rem 3.2rem 1.6rem;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+
+  @include tabletLarge() {
+    padding: 2.4rem 5.6rem 3.2rem 5.6rem;
+  }
 }

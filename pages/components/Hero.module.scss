@@ -1,0 +1,27 @@
+@import '../../styles/mixins';
+
+.container {
+  margin: 0 auto;
+
+  @include tablet() {
+    width: 70vw;
+  }
+
+  @include tabletLarge() {
+    width: 60vw;
+  }
+}
+
+.highlight {
+  font-style: italic;
+  font-weight: normal;
+  font-size: 4rem;
+  line-height: 5.6rem;
+  letter-spacing: 0.02em;
+  color: var(--secondary);
+
+  @include tablet() {
+    font-size: 6.4rem;
+    line-height: 8rem;
+  }
+}

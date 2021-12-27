@@ -1,3 +1,5 @@
+@import '../../styles/mixins';
+
 .container {
   background: var(--secondary);
   padding: 20% 0; /* The padding is the area for the shapes, adjust it based on the ratio of the shape*/
@@ -24,6 +26,11 @@
 
 .orderList {
   padding: 1.6rem 3.2rem 3.2rem 5.6rem;
+
+  @include tablet() {
+    margin: 0 auto;
+    width: 50%;
+  }
 }
 
 .list {
@@ -32,4 +39,8 @@
   line-height: 5.6rem;
   font-weight: normal;
   color: var(--accent);
+
+  @include tabletLarge() {
+    margin-left: 3.2rem;
+  }
 }

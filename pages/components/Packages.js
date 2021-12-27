@@ -1,7 +1,7 @@
 import React from 'react'
 import Package from './Package'
 import Image from 'next/image'
-import styles from './Packages.module.css'
+import styles from './Packages.module.scss'
 
 const Packages = () => {
   return (

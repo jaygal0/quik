@@ -1,5 +1,5 @@
 import React from 'react'
-import styles from './Package.module.css'
+import styles from './Package.module.scss'
 
 const Package = ({ heading, text, price, b1, b2, b3, b4, popular }) => {
   return (

@@ -1,3 +1,5 @@
+@import '../../styles/mixins';
+
 .container {
   background: var(--accent);
   max-width: 343px;
@@ -8,6 +10,10 @@
   flex-direction: column;
   gap: 1.6rem;
   margin-bottom: 2.4rem;
+
+  @include tabletLarge() {
+    width: calc((100vw / 3) - 4.8rem);
+  }
 }
 .heading {
   font-size: 4rem;

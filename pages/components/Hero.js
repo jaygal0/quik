@@ -1,5 +1,5 @@
 import React from 'react'
-import styles from './Hero.module.css'
+import styles from './Hero.module.scss'
 import TypingEffect from './TypingEffect'
 
 const Hero = () => {
@@ -9,9 +9,9 @@ const Hero = () => {
         helping struggling
         <TypingEffect />
         build
-        <span className="italic"> beautiful, fast </span>
+        <span className={styles.highlight}> beautiful, fast </span>
         websites that
-        <span className="italic"> convert</span> customers.
+        <span className={styles.highlight}> convert</span> customers.
       </h1>
     </section>
   )

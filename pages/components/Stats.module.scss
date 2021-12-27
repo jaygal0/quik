@@ -1,0 +1,53 @@
+@import '../../styles/mixins';
+
+.container {
+  margin: 4.8rem auto;
+  padding: 1.6rem;
+  display: flex;
+  flex-direction: column;
+  gap: 4rem;
+
+  @include tablet() {
+    width: 70vw;
+    position: relative;
+    margin-bottom: 12.8rem;
+  }
+}
+.imageWrapper {
+  height: 343px;
+  width: 343px;
+  position: relative;
+  margin: 0 auto;
+}
+.statsWrapper1 {
+  @include tablet() {
+    width: 50%;
+    position: absolute;
+    top: -20px;
+    left: -50px;
+  }
+}
+.statsWrapper2 {
+  @include tablet() {
+    width: 50%;
+    position: absolute;
+    top: 30px;
+    right: -90px;
+  }
+}
+.statsWrapper3 {
+  @include tablet() {
+    width: 50%;
+    position: absolute;
+    bottom: -50px;
+  }
+}
+.stat {
+  font-size: 5.6rem;
+  line-height: 7.2rem;
+  color: var(--secondary);
+}
+
+.text {
+  line-height: 2.4rem;
+}
