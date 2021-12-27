@@ -8,9 +8,9 @@ const Clients = () => {
         <h3 className={styles.heading}>past clients</h3>
         <div>
           <ol className={styles.orderList}>
-            <li className={styles.list}>client 1</li>
-            <li className={styles.list}>client 2</li>
-            <li className={styles.list}>client 3</li>
+            <li className={styles.list}>crouchinbunny</li>
+            <li className={styles.list}>balance by bianca</li>
+            <li className={styles.list}>laser treatment</li>
           </ol>
         </div>
       </div>

@@ -1,5 +1,6 @@
 .container {
   background: var(--accent);
+  max-width: 343px;
   padding: 4rem 2.4rem;
   border: solid 1px var(--secondary);
   border-radius: 1.6rem;
@@ -21,8 +22,8 @@
   line-height: 4.8rem;
 }
 .price {
-  font-size: 6.4rem;
-  line-height: 8rem;
+  font-size: 4.8rem;
+  line-height: 5.6rem;
 }
 .button {
   padding: 1.2rem 5.6rem;
@@ -31,20 +32,21 @@
   border: 1px solid var(--black);
   border-radius: 4px;
   font-weight: bold;
-  font-size: 2.4rem;
-  line-height: 3.2rem;
+  font-size: 1.6rem;
+  line-height: 2.4rem;
 }
 
 .listWrapper {
   display: flex;
   flex-direction: column;
   gap: 1.6rem;
-  /* list-style-image: url('/circle-tick.svg'); */
+  padding: 1.6rem;
 }
 
 .list {
-  font-size: 2.4rem;
-  line-height: 3.2rem;
+  /* list-style-image: url('/circle-tick.svg'); */
+  font-size: 1.6rem;
+  line-height: 2.4rem;
 }
 
 .popular {

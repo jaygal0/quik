@@ -4,17 +4,14 @@ import TypingEffect from './TypingEffect'
 
 const Hero = () => {
   return (
-    <section>
+    <section className={styles.container}>
       <h1>
         helping struggling
-        <br />
         <TypingEffect />
         build
-        <span className="italic"> beautiful, fast</span>
-        <br />
+        <span className="italic"> beautiful, fast </span>
         websites that
-        <br />
-        <span className="italic">convert</span> customers.
+        <span className="italic"> convert</span> customers.
       </h1>
     </section>
   )

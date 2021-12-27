@@ -5,7 +5,7 @@ const Package = ({ heading, text, price, b1, b2, b3, b4, popular }) => {
   return (
     <div className={styles.container}>
       <div className={styles.heading}>{heading}</div>
-      <div className={styles.text}>{text}</div>
+      <p className={styles.text}>{text}</p>
       <div className={styles.price}>
         <span className={styles.currency}>€</span>
         {price}
