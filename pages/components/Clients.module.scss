@@ -11,7 +11,83 @@
 
 .wrapper {
   margin: 0 auto;
+  width: 90vw;
+
+  @include desktop() {
+    display: flex;
+    align-items: center;
+    gap: 4rem;
+    height: 40vw;
+  }
+}
+
+.imageWrapper {
+  display: none;
+
+  @include desktop() {
+    display: block;
+    position: relative;
+    height: 279px;
+    width: 496px;
+  }
+}
+
+.image {
+  display: none;
+
+  @include desktop() {
+    position: absolute;
+    display: flex;
+    width: 496px;
+    height: 279px;
+    background: grey;
+    z-index: 1;
+  }
+}
+.client1 {
+  display: none;
+
+  @include desktop() {
+    position: absolute;
+    display: flex;
+    width: 496px;
+    height: 279px;
+    background: var(--black);
+    z-index: 5;
+  }
+}
+.client2 {
+  display: none;
+
+  @include desktop() {
+    position: absolute;
+    display: block;
+    width: 496px;
+    height: 279px;
+    background: var(--primary);
+    z-index: 2;
+  }
+}
+.client3 {
+  position: absolute;
+  display: none;
+
+  @include desktop() {
+    display: block;
+    width: 496px;
+    height: 279px;
+    background: blue;
+    z-index: 2;
+  }
+}
+
+.textWrapper {
+  margin: 0 auto;
   padding-top: 3.2rem;
+
+  @include desktop() {
+    margin: 0 0;
+  }
 }
 
 .heading {
@@ -22,6 +98,11 @@
   line-height: 3.2rem;
   text-transform: capitalize;
   text-align: center;
+
+  @include desktop() {
+    text-align: left;
+    padding-left: 2.4rem;
+  }
 }
 
 .orderList {
@@ -30,6 +111,9 @@
   @include tablet() {
     margin: 0 auto;
     width: 50%;
+  }
+  @include desktop() {
+    width: 100%;
   }
 }
 
@@ -40,7 +124,16 @@
   font-weight: normal;
   color: var(--accent);
 
+  &:hover {
+    cursor: pointer;
+    text-decoration: underline;
+  }
+
   @include tabletLarge() {
     margin-left: 3.2rem;
+  }
+  @include desktop() {
+    font-size: 7.2rem;
+    line-height: 8.8rem;
   }
 }

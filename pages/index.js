@@ -18,6 +18,7 @@ export default function Home() {
           text="Got a poorly designed website, that&#39;s too slow and doesn&#39;t convert customers?"
           button="let&#39;s work together"
           src="confused-mobile.svg"
+          path="prices"
         />
         <Clients />
         <Stats />

@@ -9,4 +9,7 @@
   @include tabletLarge() {
     padding: 2.4rem 5.6rem 3.2rem 5.6rem;
   }
+  @include desktop() {
+    padding: 2.4rem 14.3rem 7.2rem 14.3rem;
+  }
 }

@@ -5,7 +5,7 @@ import styles from './Packages.module.scss'
 
 const Packages = () => {
   return (
-    <section className={styles.container}>
+    <section className={styles.container} id="prices">
       <div className={styles.imageWrapper}>
         <Image
           src="/website.svg"

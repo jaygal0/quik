@@ -12,12 +12,20 @@
     position: relative;
     margin-bottom: 12.8rem;
   }
+  @include desktop() {
+    margin-bottom: 28rem;
+  }
 }
 .imageWrapper {
   height: 343px;
   width: 343px;
   position: relative;
   margin: 0 auto;
+
+  @include desktop() {
+    height: 561px;
+    width: 561px;
+  }
 }
 .statsWrapper1 {
   @include tablet() {
@@ -25,6 +33,10 @@
     position: absolute;
     top: -20px;
     left: -50px;
+  }
+  @include desktop() {
+    top: -20px;
+    left: 70px;
   }
 }
 .statsWrapper2 {
@@ -34,6 +46,11 @@
     top: 30px;
     right: -90px;
   }
+  @include desktop() {
+    width: 30%;
+    top: 30px;
+    right: 0;
+  }
 }
 .statsWrapper3 {
   @include tablet() {
@@ -41,11 +58,20 @@
     position: absolute;
     bottom: -50px;
   }
+  @include desktop() {
+    left: 150px;
+    bottom: -80px;
+  }
 }
 .stat {
   font-size: 5.6rem;
   line-height: 7.2rem;
   color: var(--secondary);
+
+  @include desktop() {
+    font-size: 8.8rem;
+    line-height: 9.6rem;
+  }
 }
 
 .text {

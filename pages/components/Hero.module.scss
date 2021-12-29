@@ -6,7 +6,6 @@
   @include tablet() {
     width: 70vw;
   }
-
   @include tabletLarge() {
     width: 60vw;
   }
@@ -23,5 +22,9 @@
   @include tablet() {
     font-size: 6.4rem;
     line-height: 8rem;
+  }
+  @include desktop() {
+    font-size: 8rem;
+    line-height: 11.2rem;
   }
 }

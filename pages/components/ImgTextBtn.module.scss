@@ -10,9 +10,12 @@
     width: 70vw;
     gap: 2.4rem;
   }
-
   @include tabletLarge() {
     width: 60vw;
+  }
+  @include desktop() {
+    width: 100vw;
+    padding: 0 14.3rem;
   }
 }
 
@@ -21,14 +24,27 @@
   height: 343px;
   width: 343px;
   margin: 0 auto;
+
+  @include desktop() {
+    height: 561px;
+    width: 561px;
+  }
 }
 
-.text {
+.textWrapper {
   margin-top: 1.6rem;
   padding: 0 1.6rem;
 
   @include tablet() {
     width: 70vw;
     margin: auto;
+  }
+  @include desktop() {
+    width: 40%;
+    padding: 0 0;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
   }
 }
